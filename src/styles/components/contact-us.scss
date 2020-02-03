@@ -24,11 +24,13 @@
 
 .contact-us-form-submit-button-container {
     padding: 5px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-us-form-submit-button {
     border: none;
-    padding: 5px 30px;
+    padding: 1% 8%;
     font-weight: 400;
     border-radius: 15px;
     font-size: 16px;

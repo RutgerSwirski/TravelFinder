@@ -1,0 +1,44 @@
+.faq-title {
+    border-bottom: 5px solid #ff0065;
+    font-weight: 700;
+    display: inline-block;
+    margin: 30px 0;
+    font-size: 45px;
+}
+
+.faq-left-container {
+    margin: 0 !important;
+    padding: 0 !important;
+  
+}
+
+.faq-right-container {
+    margin: 0 !important;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    padding: 30px !important;
+}
+
+.faq-right-name {
+    border-bottom: 5px solid #ff0065;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.faq-right-content {
+    padding: 10px 0;
+}
+
+.faq-right-button {
+    background-color: transparent;
+    border: none;
+    padding: 3px 15px;
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    &:hover {
+        opacity: 0.8;
+    }
+}
