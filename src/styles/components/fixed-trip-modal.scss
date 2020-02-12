@@ -1,0 +1,52 @@
+.trip-modal {
+
+}
+
+.trip-modal-top {
+    max-width: 100%;
+}
+
+.trip-modal-title {
+    font-size: 35px !important;
+    font-weight: 700 !important;
+    display: inline-block;
+    border-bottom: 5px solid #ff0065;
+}
+
+.trip-modal-bottom {
+}
+
+.trip-modal-description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.trip-modal-price-container {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+}
+
+.trip-modal-price {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.trip-modal-sale {
+    font-size: 20px;
+    padding: 3px 30px;
+    background-color: #ff0065;
+    border-radius: 5px;
+    color: white;
+}
+
+.trip-modal-button {
+    margin: 15px 0;
+    padding: 5px 15px !important;
+    text-decoration: none !important;
+    color: white !important;
+    border: none !important;
+    &:hover {
+        opacity: 0.8;
+    }
+}
